@@ -36,7 +36,7 @@ void setup() {
   res = wm.autoConnect("LEDs Pagina WEB","comunica2024IOT");
   if(!res) {
       Serial.println("Failed to connect");
-      // ESP.restart();
+      ESP.restart();
   } 
   else {
       //if you get here you have connected to the WiFi    
