@@ -1,26 +1,34 @@
 #include "sMQTTBroker.h"
+#include <WiFiManager.h>
+
 
 
 sMQTTBroker broker;
 unsigned long Time;
 unsigned long freeRam;
 
-//IPAddress local_IP(192, 168, 0, 199);
-//IPAddress gateway(192, 168, 12, 1);
-//IPAddress subnet(255, 255, 255, 0);
-//IPAddress primaryDNS(8, 8, 8, 8);
-//IPAddress secondaryDNS(8, 8, 4, 4);
-//
+
+
+
 void setup() {
   Serial.begin(115200);
-/*
-  if(!WiFi.config(local_IP, gateway, subnet)){
-    Serial.println("STA Failed to configure");
-  }*/
 
-  WiFi.begin("Comunicacao_2G", "comunicacao2024");
-  while (WiFi.status() != WL_CONNECTED){
-    delay(1000);
+   //Wifi manager
+  WiFiManager wm;
+  bool res;
+  res = wm.autoConnect("LEDs Broker Server","comunica2024IOT");
+  if(!res) {
+      Serial.println("Failed to connect");
+      ESP.restart();
+  } 
+  else {
+      //if you get here you have connected to the WiFi    
+      Serial.println("connected...yeey :)");
+  }
+
+  while(WiFi.status() != WL_CONNECTED){
+    delay(500);
+    Serial.print(".");
   }
   Serial.println("Connection established!");
   delay(1000);
