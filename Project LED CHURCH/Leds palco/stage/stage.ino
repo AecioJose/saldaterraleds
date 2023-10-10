@@ -58,7 +58,7 @@ void setup() {
   //Wifi manager
   WiFiManager wm;
   bool res;
-  res = wm.autoConnect("LEDs Comunicacao","comunica2024IOT");
+  res = wm.autoConnect("LEDs PALCO","comunica2024IOT");
   if(!res) {
       Serial.println("Failed to connect");
       // ESP.restart();
