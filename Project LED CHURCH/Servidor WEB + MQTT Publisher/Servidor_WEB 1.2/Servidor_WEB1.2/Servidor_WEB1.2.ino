@@ -4,6 +4,7 @@
 #include <Arduino.h>
 #include <ESPmDNS.h>
 #include <WebServer.h>
+#include <WiFiManager.h>
 #include <ArduinoJson.h>
 #include <PubSubClient.h>
 
@@ -29,9 +30,20 @@ WebServer server(80);
 void setup() {
   Serial.begin(115200);
 
-  // Configura a conexão WiFi
-  WiFi.begin("Comunicacao_2G", "comunicacao2024");
-  while (WiFi.status() != WL_CONNECTED) {
+ //Wifi manager
+  WiFiManager wm;
+  bool res;
+  res = wm.autoConnect("LEDs Pagina WEB","comunica2024IOT");
+  if(!res) {
+      Serial.println("Failed to connect");
+      // ESP.restart();
+  } 
+  else {
+      //if you get here you have connected to the WiFi    
+      Serial.println("connected...yeey :)");
+  }
+
+  while(WiFi.status() != WL_CONNECTED){
     delay(500);
     Serial.print(".");
   }
