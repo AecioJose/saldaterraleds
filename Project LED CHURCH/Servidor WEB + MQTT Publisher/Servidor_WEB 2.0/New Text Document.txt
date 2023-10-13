@@ -1,0 +1,1 @@
+Esse arquivo é so pra lembra que na 2.0 tem que implemetar a lógica de selecionar o LED(na pagina DIREITA e ESQUERDA) e fazer os os codigos para os esps das laterais
