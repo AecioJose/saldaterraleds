@@ -7,7 +7,7 @@
 const char* mqttServer = "192.168.0.110"; // IP do broker MQTT
 const int mqttPort = 1883;
 const char* mqttTopic = "STAGE";
-const char* clientID = "ESP32Receptor";
+const char* clientID = "ESP32Receptor2";
 
 #define pinoR 15
 #define pinoG 2
