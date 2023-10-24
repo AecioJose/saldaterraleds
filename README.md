@@ -34,7 +34,7 @@ Ao <a href="https://github.com/IcaroRubem">@icaroRubem</a>, por ter ajudado no 
 ## Relato
 Este projeto foi realizado em 2 semanas, no final do mês de setembro de 2023.<br>
 Na primeira semana foram instalados os leds do teto e os do palco, com a implementação IOT apenas nos leds do teto. Na segunda semana foram mudados os projetores de lugar.<br>
-Ao decorrer dos meses foram implementados os sistema IOT para os outros LEDs, ao final de outubro foi implementado os LEDs do palco, e ao final de novembro foram implementados os LEDs das laterais.<br>
+Ao decorrer dos meses foram implementados os sistema IOT para os outros LEDs, ao final de outubro de 2023 foi implementado os LEDs do palco, e ao final de novembro de 2023 foram implementados os LEDs das laterais.<br>
 
 ### Antes
 GIF
