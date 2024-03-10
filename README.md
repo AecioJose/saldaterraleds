@@ -5,8 +5,9 @@ Projeto de Iluminação com fita de LED usado na Igreja **Sal Da Terra Pirapitin
 
 ## Possíveis Problemas⚠️ (LEIA AQUI SE ALGO NÃO ESTIVER FUNCIONANDO)
 ### 1° - Se os leds não mudam de cor ou você não consegue acessar o site 192.168.0.107
-1. Tente primeiramente desligar(por pelo menos 1 min) e ligar o servidor(aquela caixa preta com um botão on/off, que fica na parede em cima da mesa branca).
-2. Caso não volte, terá que desligar o disjuntor de iluminação no quadro de distribuição(para os LEDS do teto); Leds do palco e da Lateral tem um botão de ligar e desligar neles, em uma caixinha preta.
+1. Certifique-se de que tem internet na rede 2.4G
+2. Tente primeiramente desligar(por pelo menos 1 min) e ligar o servidor(aquela caixa preta com um botão on/off, que fica na parede em cima da mesa branca).
+3. Caso não volte, terá que desligar o disjuntor de iluminação no quadro de distribuição(para os LEDS do teto); Leds do palco e da Lateral tem um botão de ligar e desligar neles, em uma caixinha preta(É Necessário que a internet esteje ligada antes dos leds e do servidor, se você ligar primeiro os leds e depois o roteador, não irão funcionar a mudança de cor, ele vai ficar na ultima cor escolhida anteriormente. Por isso o roteador deve está ligado e com internet antes de você ligar os leds).
 
 ### 2° - Se a SENHA DO WIFI foi alterada
 1. Certifique-se de que tudo está ligado(todos os controladores, a caixa de servidores, e a rede wifi).
