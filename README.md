@@ -27,8 +27,8 @@ Projeto de Iluminação com fita de LED usado na Igreja **Sal Da Terra Pirapitin
 ### 3° - Se forem trocados os roteadores
 - Primeiro conecte todos os dispositivos na mesma rede como citado no tópico acima.
 - Depois você precisa de definir IP fixo OBRIGATORIAMENTE para o servidor broker e o servidor web nos seguintes IPs.
-- Servidor Broker MAC: IP: 192.168.0.110
-- Servidor Web MAC: IP: 192.168.0.107 -> aqui não é obrigatório esse IP, porém se alterar, terá que avisar a todos o novo IP para acessar os controles das cores.
+- Servidor Broker MAC: 48-E7-29-A3-0D-B0 IP: 192.168.0.110
+- Servidor Web MAC: E0-5A-1B-E4-EC-0C IP: 192.168.0.107 -> aqui não é obrigatório esse IP, porém se alterar, terá que avisar a todas as pessoa do ministério o novo IP para acessar os controles das cores.
 - Caso no futuro a igreja cresça e tenha muitos dispositivos conectados a uma rede e a rede interna deixe de ser tipo C, utilize um roteador dedicado para as esps, não fiz testes, mas acredito que nem precise de internet, apenas um roteador, mas para mudar as cores terá que se conectar a esse roteador.
 
 <br>
