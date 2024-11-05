@@ -13,7 +13,7 @@ Projeto de Iluminação com fita de LED usado na Igreja **Sal Da Terra Pirapitin
 1. Certifique-se de que tudo está ligado(todos os controladores, a caixa de servidores, e a rede wifi).
 2. Cada controlador e os servidores ao não se conectarem a uma rede já cadastrada ele gera uma rede própria, você deve se conectar a elas uma por uma:
    * SSID: LEDs Broker Server - senha: comunica2024IOT
-   * SSID: LEDs Pagina WEB - senha: comunica2024IOT
+   * SSID: LEDs Pagina WEB - senha: 12345678
    * SSID: LEDs TETO - senha: comunica2024IOT
    * SSID: LEDs PALCO - senha: comunica2024IOT
    * SSID: não implementado ainda - senha: comunica2024IOT -> espaço reservado a implementação futura dos leds da lateral
